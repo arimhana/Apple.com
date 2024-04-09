@@ -1,23 +1,24 @@
-main.wrapper div.parent_banner{
+main.wrapper div.parent_banner3{
     width: 100%;
     height: 580px;
+    margin: 12px 0 0 0;
 }
 
-main.wrapper div.parent_banner div.banner{
-    width: 100%;
+main.wrapper div.parent_banner3 div.banner3{
+    width: inherit;
     height: inherit;
 }
 
-main.wrapper div.parent_banner div.banner a{
+main.wrapper div.parent_banner3 div.banner3 a{
     width: inherit;
     height: inherit;
     display: block;
-    background-image: url(../picture/Banner/banner.jpeg);
+    background-image: url(../picture/Banner/banner3.jpeg);
     background-size: cover;
     background-position: center center;
 }
 
-main.wrapper>div.parent_banner>div.banner>a>div.text{
+main.wrapper>div.parent_banner3>div.banner3>a>div.text{
     width: inherit;
     height: 208px;
     padding: 47px 0 0 0;
@@ -25,22 +26,22 @@ main.wrapper>div.parent_banner>div.banner>a>div.text{
 
 }
 
-main.wrapper>div.parent_banner>div.banner>a>div.text>h2{
+main.wrapper>div.parent_banner3>div.banner3>a>div.text>h2{
     font-family: Apple;
     font-size: 56px;
     font-weight: 600;
-    color: rgb(245, 245, 247);
+    color: rgb(29, 29, 31);
     letter-spacing: -2px;
 }
 
-main.wrapper>div.parent_banner>div.banner>a>div.text>p{
+main.wrapper>div.parent_banner3>div.banner3>a>div.text>p{
     font-family:Applereg;
     font-size: 28px;
     font-weight: 400;
-    color: rgb(245, 245, 247);
+    color: rgb(29, 29, 31);
 }
 
-main.wrapper>div.parent_banner>div.banner>a>div.text>div.button{
+main.wrapper>div.parent_banner3>div.banner3>a>div.text>div.button{
     width: 13%;
     height: 44px;
     margin-left: auto;
@@ -52,7 +53,7 @@ main.wrapper>div.parent_banner>div.banner>a>div.text>div.button{
     justify-content: space-between;
 }
 
-main.wrapper>div.parent_banner>div.banner>a>div.text>div.button button.left{
+main.wrapper>div.parent_banner3>div.banner3>a>div.text>div.button button.left{
     width: 58%;
     height: inherit;
     background-color: rgb(0, 113, 227);
@@ -62,18 +63,18 @@ main.wrapper>div.parent_banner>div.banner>a>div.text>div.button button.left{
 
 }
 
-main.wrapper>div.parent_banner>div.banner>a>div.text>div.button button.left:hover{
+main.wrapper>div.parent_banner3>div.banner3>a>div.text>div.button button.left:hover{
     filter: brightness(105%);
 }
 
-main.wrapper>div.parent_banner>div.banner>a>div.text>div.button button.left span{
+main.wrapper>div.parent_banner3>div.banner3>a>div.text>div.button button.left span{
     font-family: Applereg;
     font-size: 17px;
     font-weight: 100;
     color: rgb(255, 255, 255);
 }
 
-main.wrapper>div.parent_banner>div.banner>a>div.text>div.button button.right{
+main.wrapper>div.parent_banner3>div.banner3>a>div.text>div.button button.right{
     width: 33%;
     height: inherit;
     background-color: transparent;
@@ -82,17 +83,17 @@ main.wrapper>div.parent_banner>div.banner>a>div.text>div.button button.right{
     border: 1px solid rgb(41, 151, 255);
 }
 
-main.wrapper>div.parent_banner>div.banner>a>div.text>div.button button.right span{
+main.wrapper>div.parent_banner3>div.banner3>a>div.text>div.button button.right span{
     font-family: Applereg;
     font-size: 17px;
     font-weight: 400;
     color: rgb(41, 151, 255);
 }
 
-main.wrapper>div.parent_banner>div.banner>a>div.text>div.button button.right:hover{
+main.wrapper>div.parent_banner3>div.banner3>a>div.text>div.button button.right:hover{
     background-color: rgb(0, 113, 227);
 }
 
-main.wrapper>div.parent_banner>div.banner>a>div.text>div.button button.right:hover span{
+main.wrapper>div.parent_banner3>div.banner3>a>div.text>div.button button.right:hover span{
     color: rgb(255, 255, 255);
 }
